@@ -1,6 +1,6 @@
 class Vehicle:
 
-    def _init__(self, make, model, vin, cylinders, color, lic_plate):
+    def __init__(self, make, model, vin, cylinders, color, lic_plate):
         self.make = make
         self.model = model
         self.vin = vin
