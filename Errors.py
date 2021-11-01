@@ -20,16 +20,16 @@ class Vehicle:
     def getMake(self):
         return self.make
 
-    def describeDaVehicle(self):
+    def describeTheVehicle(self):
         print ('Make %s, Model %s, Color %s' % (self.make, self.model, self.color))
 
 
 
 ford1 = Vehicle('Ford', 'F150', '12345', 6, 'Black', 'ABC123')
-ford1.describeDaVehicle()
+ford1.describeTheVehicle()
 ford1.setColor('Red')
-for1.describeDaVehicle()
+for1.describeTheVehicle()
 
 fordEx = Vehicle('Ford, 'Explorer', '454334', 4, 'Silver',87875)
-fordEx.describeDaVehicle()
+fordEx.describeTheVehicle()
 
