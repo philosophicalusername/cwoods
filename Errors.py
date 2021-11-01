@@ -6,7 +6,7 @@ class Vehicle:
         self.vin = vin
         self.cylinders = cylinders
         self.color = color
-    self.lic_plate = lic_plate
+        self.lic_plate = lic_plate
 
     def createOwner(self, name):
         persn = Person(name)
