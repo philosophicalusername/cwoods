@@ -11,13 +11,13 @@ class Vehicle:
     def createOwner(self, name):
         persn = Person(name)
 
-    def setColor(color):
+    def setColor(self, color):
         self.color = color
 
     def setLicPlate(self, lic_plate):
         self.lic_plate = lic_plate
 
-    def getMake(self):
+    def getMake(self, make):
         return self.make
 
     def describeTheVehicle(self):
