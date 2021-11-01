@@ -30,6 +30,6 @@ ford1.describeTheVehicle()
 ford1.setColor('Red')
 ford1.describeTheVehicle()
 
-fordEx = Vehicle('Ford, 'Explorer', '454334', 4, 'Silver',87875)
+fordEx = Vehicle('Ford', 'Explorer', '454334', 4, 'Silver',87875)
 fordEx.describeTheVehicle()
 
